@@ -1,10 +1,6 @@
 module.exports = {
-  content: ["./**/*.{js,jsx}"],
+  purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    screens: {
-      sm: "640px",
-      lg: "960px",
-    },
     fontFamily: {
       sans: ["Roboto", "sans-serif"],
     },
